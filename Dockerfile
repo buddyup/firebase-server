@@ -19,11 +19,7 @@ RUN n 4.3.1
 RUN n use 4.3.1
 
 # Prep the app for updating.
-RUN mkdir /code
 WORKDIR /code
-
-# Set up reqs
-WORKDIR /code/app
 
 # Set up server.
 COPY package.json /code/package.json
