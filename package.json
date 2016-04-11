@@ -1,0 +1,10 @@
+{
+  "name": "firebase-server",
+  "version": "0.1",
+  "description": "A mock firebase server for unit tests and dev",
+  "dependencies": {},
+  "devDependencies": {
+    "firebase": "^2.4.2",
+    "firebase-server": "^0.5.4"
+  }
+}
