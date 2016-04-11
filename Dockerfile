@@ -13,11 +13,6 @@ RUN apt-get update  # April 11 2016
 RUN rm -rf /usr/lib/node_modules/npm
 RUN apt-get install -y curl git npm nodejs nano
 
-## Carrying on
-RUN npm install -g n
-RUN n 4.3.1
-RUN n use 4.3.1
-
 # Prep the app for updating.
 WORKDIR /code
 

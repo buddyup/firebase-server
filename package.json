@@ -1,5 +1,5 @@
 {
-  "name": "firebase-server",
+  "name": "buddyup-firebase-server",
   "version": "0.1",
   "description": "A mock firebase server for unit tests and dev",
   "dependencies": {},
